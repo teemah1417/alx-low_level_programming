@@ -4,7 +4,7 @@
  *
  * Description: print all aplhabet letters except q and e
  *
- * Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 	int main(void)
 {
@@ -14,6 +14,8 @@
 	{
 		if (ch == 'e' || ch == 'q')
 			++ch;
+		putchar(ch);
+		++ch;
 	}
 	putchar('\n');
 

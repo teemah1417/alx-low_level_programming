@@ -12,7 +12,7 @@ void rev_string(char *s)
 	char ch;
 
 	/*find string length without null char*/
-	for (l = 0; s[1] != '\0'; ++1)
+	for (l = 0; s[1] != '\0'; ++l)
 		;
 
 	/*swap the string by looping to half the string*/

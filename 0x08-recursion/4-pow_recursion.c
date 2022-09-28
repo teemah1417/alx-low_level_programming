@@ -23,5 +23,5 @@ int _pow_recursion(int x, int y)
 		return (even * even);
 	}
 	else	/*if y is odd*/
-		return (x *_pow_recursion(x, y - 1));
+		return (x * _pow_recursion(x, y - 1));
 }
